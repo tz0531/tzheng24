@@ -18,13 +18,13 @@ export class InMemoryDataService implements InMemoryDbService {
 
     const recentQuotes = [
       { id: 101, number: 'AC123PC', lineOfBusiness: 11 },
-      { id: 102, name: 'AC124PC', lineOfBusiness: 12 },
-      { id: 103, name: 'AC125PC', lineOfBusiness: 13 },
-      { id: 104, name: 'AC126PC', lineOfBusiness: 14 },
-      { id: 105, name: 'AC127PC', lineOfBusiness: 15 },
-      { id: 106, name: 'AC125PC', lineOfBusiness: 13 },
-      { id: 107, name: 'AC126PC', lineOfBusiness: 13 },
-      { id: 108, name: 'AC127PC', lineOfBusiness: 15 }
+      { id: 102, number: 'AC124PC', lineOfBusiness: 12 },
+      { id: 103, number: 'AC125PC', lineOfBusiness: 13 },
+      { id: 104, number: 'AC126PC', lineOfBusiness: 14 },
+      { id: 105, number: 'AC127PC', lineOfBusiness: 15 },
+      { id: 106, number: 'AC125PC', lineOfBusiness: 13 },
+      { id: 107, number: 'AC126PC', lineOfBusiness: 13 },
+      { id: 108, number: 'AC127PC', lineOfBusiness: 15 }
     ];
 
     return {linesOfBusiness};
