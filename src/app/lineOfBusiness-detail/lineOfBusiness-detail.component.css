@@ -3,6 +3,10 @@ label {
   color: #435960;
   font-weight: bold;
 }
+.labeling {
+  color: #435960;
+  font-weight: bold;
+}
 input {
   font-size: 1em;
   padding: .5rem;
@@ -23,3 +27,4 @@ button:disabled {
   color: #ccc;
   cursor: auto;
 }
+

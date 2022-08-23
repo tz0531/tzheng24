@@ -18,3 +18,40 @@ nav a:hover {
 nav a.active {
   background-color: black;
 }
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+th[scope="col"] {
+    background-color: #42545C;
+    color: #fff;
+}
+
+th[scope="row"] {
+    background-color: #d7d9f2;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-size: .8rem;
+}

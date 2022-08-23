@@ -3,5 +3,30 @@
   <a routerLink="/dashboard">Search</a>
   <a routerLink="/linesOfBusiness">View All Lines Of Business</a>
 </nav>
+
+<table>
+  <caption>Most Popular Lines of Business</caption>
+    <thead>
+      <tr>
+        <th scope="col">Popularity</th>
+        <th scope="col">Name</th>
+        <th scope="col">Percentage of Recent Quotes</th>
+      </tr>
+  </thead>
+  <tbody>
+    <tr>
+        <th scope="row">1st</th>
+        <td>{{popular1}}</td>
+        <td>{{popular1Percent | number : '1.0-2'}}%</td>
+    </tr>
+    <tr>
+        <th scope="row">2nd</th>
+        <td>{{popular2}}</td>
+        <td>{{popular2Percent | number : '1.0-2'}}%</td>
+    </tr>
+</tbody>
+
+</table>
+
 <router-outlet></router-outlet>
 <app-messages></app-messages>
